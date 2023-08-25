@@ -1,0 +1,47 @@
+.menu-bar__container{
+	display:flex;
+	position:fixed;
+	z-index:999;
+	background-color:#ffffff;
+	width:100%;
+	height:40px;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+}
+
+.menu-bar__logo{
+	margin-left:30px;
+	display:flex;
+	align-items:center;
+}
+
+.menu-bar__item{
+	display:flex;
+	margin:auto;
+	align-items:center;
+}
+
+.menu-bar__lista{
+	display:flex;
+}
+
+.menu-bar__lista li{
+	list-style-type:none;
+}
+
+.menu-bar__link{
+	padding:5px;
+	margin-right:15px;
+	text-decoration:none;
+	color:black;
+	font-family:'Segoe UI';
+	font-weight:500;
+	transition:0.3;
+}
+
+.menu-bar__link:hover{
+	border-radius:5px;
+  background-color:rgb(100, 149, 237);
+	color:white;
+	font-weight:700;
+}
+
